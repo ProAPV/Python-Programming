@@ -17,6 +17,4 @@ for x in range(0, sizeOfList-1):
     elif secondMaxElement < mainList[x+1] & mainList[x+1] < maxElement :
         secondMaxElement = mainList[x+1]
     
-print("Maximum ELement is: ", maxElement)
-
 print("Second max element is: ", secondMaxElement)
